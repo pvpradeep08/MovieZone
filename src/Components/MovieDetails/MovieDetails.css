@@ -1,0 +1,130 @@
+/* Movie Detail Container */
+.movie-detail {
+  position: relative;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #121212;
+  overflow-x: hidden;
+}
+
+/* Background Image */
+.background {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(0.3) blur(2px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Movie Poster */
+/* .movie-poster {
+  width: 250px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+} */
+
+/* Content Section */
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+/* Movie Overview */
+.overview {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: #ccc;
+}
+
+/* Rating */
+.rating {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Cast Section */
+.cast {
+  margin-top: 20px;
+}
+
+.cast-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cast-card {
+  text-align: center;
+}
+
+.cast-card img {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Watch Trailer Button */
+.trailer-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.trailer-button:hover {
+  background-color: darkred;
+}
+
+/* Trailer Popup */
+.trailer-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.youtube-video {
+  width: 560px;
+  height: 315px;
+}
+
+/* Close Button */
+.close-button {
+  display: block;
+  margin: 15px auto;
+  background: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.close-button:hover {
+  background: darkred;
+}

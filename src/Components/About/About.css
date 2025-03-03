@@ -1,0 +1,19 @@
+.about-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-container h2 {
+    color: #e50914;
+  }
+  
+  .about-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-container ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
