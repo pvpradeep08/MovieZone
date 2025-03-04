@@ -49,14 +49,14 @@ const MovieDetail = () => {
 
         {/* Movie Poster */}
         <img
-  className="background"
-  src={
-    movie.backdrop_path
-      ? `https://image.tmdb.org/t/p/original${movie.backdrop_path}`
-      : `https://image.tmdb.org/t/p/w500${movie.poster_path}` // Fallback
-  }
-  alt={movie.title}
-/>
+          className="background"
+          src={
+            movie.backdrop_path
+              ? `https://image.tmdb.org/t/p/original${movie.backdrop_path}`
+              : `https://image.tmdb.org/t/p/w500${movie.poster_path}` // Fallback
+          }
+          alt={movie.title}
+        />
 
         <p className="overview">{movie.overview}</p>
         <p className="rating">⭐ Rating: {movie.vote_average}</p>
